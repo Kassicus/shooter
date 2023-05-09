@@ -13,6 +13,8 @@ class Colors():
         c = pygame.Color(randint(0, 255), randint(0, 255), randint(0, 255))
         return c
     
+global_offset = pygame.math.Vector2()
+
 color = Colors()
 delta_time = 0
 frame_limit = 120
