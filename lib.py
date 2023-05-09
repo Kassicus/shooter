@@ -8,6 +8,7 @@ class Colors():
     def __init__(self):
         self.black = pygame.Color(0, 0, 0, 255)
         self.white = pygame.Color(255, 255, 255, 255)
+        self.green = pygame.Color(0, 255, 0, 255)
 
     def get_random(self) -> pygame.Color:
         c = pygame.Color(randint(0, 255), randint(0, 255), randint(0, 255))
